@@ -6,11 +6,12 @@
   font-family: 'Poppins', sans-serif;
 } 
 .container{
-  /* background: url("https://wallpapercave.com/wp/PJ70s19.jpg"); */
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5pDQUtgNdU3rIMxTW3bnHH1w5RitJUe1ug&usqp=CAU");
+   /* background: url("https://wallpapercave.com/wp/PJ70s19.jpg");  */
   /* background-color: darkblue; */
   /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqY7iCYQiGtn8blyDH3JPl77Fd9_pn64yJIg&usqp=CAU"); */
   /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfnKE0eiyiuD11KQWv6sIQFnKZmHf9j9t2g&usqp=CAU"); */
-  background: linear-gradient(to bottom,grey,darkblue);
+  /* background: linear-gradient(to bottom,grey,darkblue); */
 }
 nav{
   display: flex;
@@ -162,6 +163,8 @@ input[type="checkbox"]{
   text-align: center;
   margin-top: 20px;
   color: white;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 .im{
   height: 200px;
@@ -305,10 +308,23 @@ transform:rotate(360deg) ;
 
 
 }
+.suggest a{
+ list-style: none;
+ text-decoration: none;
+ color: white;
+ background: red;
+ padding: 5px 5px;
+ margin-top: 200px;
+ border: 2px solid black;
+ font-family: Arial;
+ 
+}
 .templates .head h1{
   text-align: center;
   margin-top: 40px;
+  color: white;
   text-transform: uppercase;
+  font-size: 40px;
 }
 .boxes{
   width: 100%;
@@ -318,9 +334,10 @@ transform:rotate(360deg) ;
   justify-content: space-evenly;
   padding-top: 80px;
   flex-wrap: wrap;
+  padding-bottom: 80px;
 }
 .templates .box{
-  height: 600px;
+  height: 500px;
   width: 400px;
   margin: 20px;
   padding: 10px;
