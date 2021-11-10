@@ -161,6 +161,7 @@ input[type="checkbox"]{
 .head-1 h1{
   text-align: center;
   margin-top: 20px;
+  color: white;
 }
 .im{
   height: 200px;
